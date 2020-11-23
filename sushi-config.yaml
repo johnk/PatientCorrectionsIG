@@ -3,18 +3,23 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# change these once we have a real hl7 URL
 id: patientcorrections
-canonical: http://example.org/fhir/patientcorrections
+canonical: https://keyes.dev/ig
 version: 0.1.0
 name: PatientCorrectionsImplementationGuide
-title: Patient Corrections Implementation Guide
+title: "Patient Corrections Implementation Guide"
 status: draft
-publisher: Patient Empowerment Workgroup
+publisher:
+  - name: Patient Empowerment Workgroup
+  - url: https://confluence.hl7.org/display/PE/Patient+Empowerment+Home
 contact:
   - name: John Keyes
     telecom:
       - system: email
         value: john@johnkeyes.com
+        use: work
 description: The implementation guide for Patient Corrections.
 license: CC0-1.0
 fhirVersion: 4.0.1

@@ -1,13 +1,13 @@
 {
-  "package-id": "patientcorrections",
-  "canonical": "http://example.org/fhir/patientcorrections",
+  "package-id": "hl7.fhir.uv.patient-corrections",
+  "canonical": "http://hl7.org/fhir/uv/patient-corrections",
   "title": "Patient Corrections Implementation Guide",
-  "introduction": "The implementation guide for Patient Corrections.",
+  "introduction": "The Patient Corrections Implementation Guide provides a method for communicating a patient's request for corrections to their patient data, as well as a way for health care organizations to respond to those requests.",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/example/example-ig",
+      "path": "http://build.fhir.org/ig/HL7/patient-corrections",
       "status": "ci-build",
       "current": true
     },

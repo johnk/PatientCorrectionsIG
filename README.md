@@ -1,3 +1,3 @@
-# PatientCorrectionsIG
+# Patient Corrections Implementation Guide
 
-This is the Implementation Guide for Patient Corrections.
+The Patient Corrections Implementation Guide provides a method for communicating a patient's request for corrections to their patient data, as well as a way for health care organizations to respond to those requests.
